@@ -116,8 +116,3 @@ body {
 
 }  
 
-
-@media (max-width: 780px) {
-.container {
-    width: 500px
-}
