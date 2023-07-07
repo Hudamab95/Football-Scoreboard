@@ -114,4 +114,10 @@ body {
 #reset-game {
     margin-right: 5px;
 
-}   
+}  
+
+
+@media only screen and (max-width: 600px) {
+.container {
+    width: 500px
+}
