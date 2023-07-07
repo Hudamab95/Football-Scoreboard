@@ -1,0 +1,117 @@
+
+
+@font-face {
+    font-family: CursedTimerULiLFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9CA3AF;
+    font-family: CursedTimerULiLFont;;
+}
+
+.container {
+    display: flex;
+    padding: 50px 70px; 
+    border: 4px solid black;
+    background: #1F2937;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+
+.box {
+    background: black;
+    color: #FCD34D;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: CursedTimerULiLFont;
+    border: 1px solid #9CA3AF;
+    border-radius: 5px;
+}
+
+
+.btn {
+    margin-top: 30px;
+    font-family: CursedTimerULiLFont;
+    background: whitesmoke;
+    opacity: 0.8;
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.home {
+    color: white;
+    margin: 20px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.guest {
+    color: white;
+    height: 200px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.period  {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+#period {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    width: 3px;
+    height: 3px;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.gamecontrol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#new-game, #end-period {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: CursedTimerULiLFont;
+    background: #1F2937;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #888888;
+
+}   
+
+#end-period {
+   margin-left: 5px;
+
+}   
+
+
+#reset-game {
+    margin-right: 5px;
+
+}   
